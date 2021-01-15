@@ -1,0 +1,179 @@
+header{
+    position: relative;
+    top: 80px;
+    background-color: #1E4887;
+    color: white;
+    /* margin-top: 80px; */
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.IconTitle{
+    margin-left: 124px;
+    height: 69px;
+    width: 428px;
+    align-self: center;
+    display: flex;
+}
+.icon_container{
+    align-self: center;
+    height: 69px;
+    width: 70px;
+}
+.title{
+    font-size: 36px;
+    align-self: center;
+    margin-left: 30px;
+    height: 44px;
+    width: 328px;
+}
+nav{
+    display: flex;
+    width: 436px;
+    align-self: center;
+    margin-right: 83px;
+}
+.nav_list{
+    padding:0px;
+    width: 436px;
+    height: 28px;
+    font-size: 24px;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-list-item{
+    list-style: none;
+}
+.nav-member{
+    display: none;
+    padding-top: 45px;
+}
+.extain{
+    background-color: #1E4887;
+    border-radius: 5px;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 1px; 
+}
+.nav-list-item-link{
+    margin-bottom: 10px;
+}
+a {
+    text-decoration:none;
+    color: white;
+}
+.nav-list-item :hover{
+    color: #81A7DF;
+}
+.MainTop{
+    margin: 0px;
+    background: url(/img/AboutBG.png) ;
+    background-size: 1280px 900px;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
+.MainTop-container{
+    position: relative;
+    top: 190px;
+    margin: auto; 
+    margin-top: 0px; 
+    height: 500px;
+    width: 1030px;
+    /* background: #1E4887; */
+    background: rgba(30, 72, 135, 0.6);
+    border-radius: 50px;
+    /* opacity: 0.6; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.Maintop-container-drc{
+    margin-top: 60px;
+    margin-left: 105px;
+    color: white;
+}
+.MainTop-container-drc-title{
+    font-size: 36px;
+}
+.MainTop-container-drc-list li{
+    margin-bottom: 20px;
+    font-size: 24px;
+    
+}
+.Maintop-container-IMG{
+    margin-right: 105px;
+    margin-top: 60px;
+}
+
+.MainBottom{
+    margin: 0px;
+    background: url(/img/HistoryBG.png) ;
+    background-size: 1280px 720px;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 720px;
+    display: flex;
+}
+.MainBottom-container{
+    margin: auto;
+    margin-top: 110px; 
+    height: 500px;
+    width: 1030px;
+    /* background: #1E4887; */
+    background: rgba(30, 72, 135, 0.6);
+    border-radius: 50px;
+    /* opacity: 0.6; */
+    display: flex;
+    justify-content: space-between;
+}
+.MainBottom-container-drc{
+    margin-top: 60px;
+    margin-left: 105px;
+    color: white;
+}
+.MainBottom-container-drc-title{
+    font-size: 36px;
+}
+.MainBottom-container-drc-list li{
+    margin-bottom: 12px;
+    font-size: 24px;
+    
+}
+.MainBottom-container-IMG{
+    margin-right: 105px;
+    margin-top: 60px;
+}
+footer{
+    display:flex;
+    width: auto;
+    height: 100px;
+    background-color: #1E4887;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    font-size: 18px;
+    width: 396px;
+    height: 59px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-container-top{
+    width: 309px;
+    height: 28px;
+    display: flex;
+}
+.footer-container-bottom{
+    width: 396px;
+    height: 21px;
+}

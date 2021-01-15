@@ -1,0 +1,137 @@
+body{
+    background-image:url(/img/EquipmentBG.png);
+    background-size: cover;
+}
+header{
+    background-color: #1E4887;
+    color: white;
+    margin-top: 80px;
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.IconTitle{
+    margin-left: 124px;
+    height: 69px;
+    width: 428px;
+    align-self: center;
+    display: flex;
+}
+.icon_container{
+    align-self: center;
+    height: 69px;
+    width: 70px;
+}
+.title{
+    font-size: 36px;
+    align-self: center;
+    margin-left: 30px;
+    height: 44px;
+    width: 328px;
+}
+nav{
+    display: flex;
+    width: 436px;
+    align-self: center;
+    margin-right: 83px;
+}
+.nav_list{
+    padding:0px;
+    width: 436px;
+    height: 28px;
+    font-size: 24px;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-list-item{
+    list-style: none;
+}
+.nav-member{
+    display: none;
+    padding-top: 45px;
+}
+.extain{
+    background-color: #1E4887;
+    border-radius: 5px;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 1px; 
+}
+.nav-list-item-link{
+    margin-bottom: 10px;
+}
+a {
+    text-decoration:none;
+    color: white;
+}
+.nav-list-item :hover{
+    color: #81A7DF;
+}
+
+.Main-container{
+    margin: 110px auto; 
+    height: 500px;
+    width: 1030px;
+    /* background: #1E4887; */
+    background: rgba(30, 72, 135, 0.6);
+    border-radius: 50px;
+    /* opacity: 0.6; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.Main-container-drc{
+    width: 275px;
+    margin-top: 50px;
+    margin-left: 85px;
+    color: white;
+}
+.Main-container-drc-title{
+    margin: 0px 0px 10px 0px;
+    font-size: 36px;
+}
+.name{
+    font-size: 36px;
+    margin: 0px 0px 15px 20px;
+}
+.Main-Cotainer-drc-article{
+    line-height: 35px;
+    margin: 0px 0px 0px 20px;
+    font-size: 24px;
+}
+.Main-container-IMG{
+    margin-right: 30px;
+    margin-top: 50px;
+}
+footer{
+    display:flex;
+    width: auto;
+    height: 100px;
+    background-color: #1E4887;
+    align-items: center;
+    justify-content: center;
+}
+.footer_container{
+    font-size: 18px;
+    width: 396px;
+    height: 59px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top{
+    width: 309px;
+    height: 28px;
+    display: flex;
+}
+.bottom{
+    width: 396px;
+    height: 21px;
+}
