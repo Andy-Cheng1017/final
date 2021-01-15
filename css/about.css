@@ -73,7 +73,7 @@ a {
 }
 .MainTop{
     margin: 0px;
-    background: url(/img/AboutBG.png) ;
+    background: url(../img/AboutBG.png) ;
     background-size: 1280px 900px;
     background-position: top;
     background-repeat: no-repeat;
@@ -115,7 +115,7 @@ a {
 
 .MainBottom{
     margin: 0px;
-    background: url(/img/HistoryBG.png) ;
+    background: url(../img/HistoryBG.png) ;
     background-size: 1280px 720px;
     background-position: top;
     background-repeat: no-repeat;
